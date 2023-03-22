@@ -1,0 +1,30 @@
+             /* Divisibly by 5 */
+
+//input 10 ----------> Divisible by 5
+//input 12 ----------> Not Divible by 5
+
+class Divisible 
+ {
+    public static void main(String[] args)
+      {
+         int n;
+         System.out.println("Enter any Number ");
+         Scanner r = new Scanner(System.in);
+         n = r.nextInt();
+    
+         if(n%5==0)
+          {
+                System.out.println("Divisible by 5 ");
+          }
+         else
+          {
+                System.out.println("Not Divisible by 5 ");
+          }
+
+output:----->
+
+Enter any Number 10
+Divisble by 5
+
+Enter any Number 12
+Not Divisble by 5

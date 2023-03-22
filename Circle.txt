@@ -1,0 +1,29 @@
+               /* Area of Cirle */
+
+//area of cirle = PI*r*r
+//PI=22/7 or 3.14
+
+import java.util.Scanner
+class Cirle
+ {
+       public static void main(String[] args)
+         {
+           final double = 3.14,area;
+           int r;
+           System.out.println("Enter radius of circle ");
+           Scanner ref = new Scanner(System.in);
+            r = ref.nextInt(); //r=4
+           area = PI*r*r; //3.14*4*4 =50.24
+
+           System.out.print("Area of Circle");
+         }
+ }
+ 
+
+output:--->
+
+Enter radius of circle
+4
+Area of Circle 50.24
+
+   

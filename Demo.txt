@@ -1,0 +1,56 @@
+                         /* Class & Object */
+
+//Object Creation in Java
+
+class Demo 
+ {
+       int a =10; string b = "raunak";
+    
+       void Show()
+        {
+          System.out.println(a +" "+ b);
+        }
+  }
+
+class Test 
+  {
+
+       public static void main(String[] args)
+     {
+       Demo r = new Demo();
+       r.Show();
+     }
+  }
+
+output:--->
+
+10 raunak
+
+-------------------------------------------------------------------
+class Demo 
+ {
+       int a =10; string b = "raunak";
+    
+       void Show()
+        {
+          System.out.println(a +" "+ b);
+        }
+  }
+
+class Test 
+  {
+
+       public static void main(String[] args)
+       Demo r;
+       r=new Demo();
+       r.Show();
+   }
+
+output:--->
+
+10 raunak
+
+
+
+
+

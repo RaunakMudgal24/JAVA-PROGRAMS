@@ -1,0 +1,43 @@
+
+             /* Constructor Overloading */
+
+//Whenever we have more than one constructor in our class is called as Const. overloading
+
+class CoOv
+     {
+         int a; double b; String c;
+         CoOv()
+          {
+             a = 100; b = 45.32; c="raunak";
+             System.out.println(a+" "+b+" "+c);
+          }
+         CoOv(int x)
+          {
+             a = x;
+          }
+         CoOv(double y,String z)
+          {
+             b = y; c = z;
+          }
+     }
+
+class Demo
+     {
+          public static void main(String[] args)
+            {
+
+          CoOv r = new Coov();
+          CoOv r2 = new CoOv(10);
+          CoOv r3 = new CoOv(24.55,"raunak");
+          System.out.println(r.a+" "+r.b+" "+r.c);
+          System.out.println(r2.a);
+          System.out.println(r3.b+" "+r3.c);
+             
+              }
+
+      }
+
+output:-->
+100 45.32 raunak
+10
+24.55 raunak

@@ -1,0 +1,30 @@
+                                                                           / * Exception Handling  */
+
+class TryCatchSchema
+
+       {
+          public static void main(String[] args)
+            {
+               System.out.println("");
+                  
+              
+                 try
+                  {
+
+                                        
+                       System.out.println();
+                  }
+                  
+                 catch(Exception e)
+                  {
+                      System.out.println(e);  
+                  }
+                  
+               
+               System.out.println("");
+            }
+
+       }
+
+output:--->
+

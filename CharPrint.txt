@@ -1,0 +1,42 @@
+    /* Print Character in Java */
+
+//input 10 ---> 10
+//input A  --> A
+
+import java.util.Scanner;
+class CharPrint
+  {
+     public static void main(String args[])
+       {
+          char ch;
+          System.out.println("Plze Enter Character");
+          Scanner r = new Scanner(System.in);
+          ch = r.next().charAt(0);               //character input krne k liye mtd
+          System.out.println(ch);
+        }
+  }
+
+output:--->
+
+Plze Enter Character R
+R
+
+
+
+import java.util.Scanner;
+class CharPrint
+  {
+     public static void main(String args[])
+       {
+          char ch;
+          System.out.println("Plze Enter Character");
+          Scanner r = new Scanner(System.in); 
+          ch = r.next().charAt(3);  //Raunak       
+          System.out.println(ch);
+       }
+    }
+
+output:-->
+
+Plze Enter Character Raunak
+n

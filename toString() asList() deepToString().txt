@@ -1,0 +1,42 @@
+                       /* toString() asList() deepToString() */  
+
+
+//all above three methods are static methods so that we don't have to make an object for it.
+//it accepts array's variable as a parameter. 
+
+
+import java.util.Arrays;
+class A
+{
+   public static void main(String[] args)
+    {
+       String a[] = {"Learn","Coding","Keypoints","Education"}; //single dim arr
+       
+       System.out.println("toString() "+Arrays.toString(a));   //single dim arr
+ 
+       System.out.println("asList() "+Arrays.asList(a));
+
+       int arr[][] = {{10,20},{30,40}};
+       System.out.println("deeptoString() "+Arrays.deepToString(arr)); //muti dim arr
+    }
+}
+
+
+output:-->
+
+
+toString() [Learn,Coding,Keypoints,Education]
+asList()   [Learn,Coding,Keypoints,Education]
+
+
+
+
+
+
+
+
+
+
+
+
+}

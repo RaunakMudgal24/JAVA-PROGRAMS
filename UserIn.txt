@@ -1,0 +1,13 @@
+    /* Taking Input from the user */
+
+import java.util.Scanner
+class UserIn
+  {
+     public static void main(String args[])
+       {
+          int n;
+          System.out.println("Hello frds");
+          Scanner r = new Scanner(System.in);
+          n  = r.nextInt(System.in);
+        }
+  }

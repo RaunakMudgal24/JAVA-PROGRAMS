@@ -1,0 +1,40 @@
+            /* To take input from User */
+
+import java.util.Scanner;
+class userInput
+{
+          public static void main (String args[]) //first letter capital manne woh Class hai 
+        { 
+                 int a;
+                 Scanner obj = new Scanner(System.in);
+                 System.out.println("Enter value");
+                 a = obj.nextInt();
+                 System.out.println(a);
+
+         }
+}
+
+output:--
+
+ Enter value 101
+ 101
+
+import java.util.Scanner;
+class userInput
+{
+          public static void main (String args[]) //first letter capital manne woh Class hai 
+        { 
+                 int a,b;
+                 Scanner obj = new Scanner(System.in);
+                 System.out.println("Enter value");
+                 a = obj.nextInt();
+                 b = obj.nextInt();
+                 System.out.println(a+" "+b);
+
+         }
+}
+
+output:--
+Enter value 100
+200
+100 200

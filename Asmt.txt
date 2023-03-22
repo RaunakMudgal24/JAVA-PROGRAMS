@@ -1,0 +1,24 @@
+               /* Assignment Operator Example */
+class Asmt
+{
+      public static void main(String args[]) 
+     {
+ 
+            int a;
+            a=10; //Simple Assignment Operator
+            System.out.println(a);
+            
+            a+=10; //Compound Assignment Operator iska mtlb (a=a+10)
+            System.out.print(a);
+     
+            a-=10; //Compound (a=a-10);
+            System.out.print(a);
+
+      }
+}
+
+output-->
+
+10
+20
+10          

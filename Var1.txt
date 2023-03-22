@@ -1,0 +1,24 @@
+class  Var1 
+{
+    static int a=10; //static variable
+    void fun();     //non-static method
+    {
+       int b=10;   //local  variable
+       System.out.println(a+ " "+b); //10 10
+       ++a;   ++b; //11 10
+    }
+
+    public static void main(String[] args)
+      {
+          Var1 r=new Var1();
+          r.fun();
+          r.fun(); 
+
+
+      }
+   
+}     
+   
+
+output:--
+  //11 10

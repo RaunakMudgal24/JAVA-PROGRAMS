@@ -1,0 +1,23 @@
+                           /*Variables in Java*/
+ class Var
+{
+       static int b=20; //Static Variable       //method ke andr NHI hona chahiye
+       int c=30;        //Instance Variable
+       public static void main(String[] args)
+      {
+                 int a=10; //Local Variable    //method ke andr hona chahiye
+                 System.out.println(a);
+                 System.out.println(Var.b);
+                                 
+                 Var ref = new Var();
+                 System.out.println(ref.c);
+      }
+}
+
+
+
+output:----
+
+10
+20
+30

@@ -1,0 +1,52 @@
+            /* throws */
+
+class ThrowDemo
+{
+    public static void main(String []args) throws InterruptedException
+     {
+        for(int i=1;i<=10;i++)
+         {
+            System.out.println(i);
+            Thread.sleep(1000);
+         }
+     }
+ }
+
+//throws keyword hamesha exception case mye use hota hai
+
+             or
+
+//better way 
+
+class ThrowDemo
+{
+    public static void main(String []args) 
+     {
+        for(int i=1;i<=10;i++)
+         {
+            try
+             {
+               System.out.println(i);
+               Thread.sleep(1000);
+             }
+            catch(InterruptedException e)
+             {
+               System.out.println(e);
+             }
+         }
+     }
+ }
+
+
+output:----->
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10

@@ -1,0 +1,59 @@
+           /* Default Constructor */
+
+class Default
+  { 
+  
+         int a; String b; boolean c;
+
+         Default() //default
+            {
+                a = 100; b ="raunak"; c= true;
+            }
+          
+          void Disp()
+            {
+               System.out.print(a+" "+b+" "+c);
+            }
+  }
+ 
+class Test
+  {
+       Default r = new Default();    //class Default ka he ref variable mye new Default() constructor ko save karsakte hai
+       r.Disp();                    //tu special nhi n default aur param. Con ki tarha issliye tujhe obj ref ko bind krke call krna padta hai
+           
+  }
+
+ 
+output:--->
+
+100 raunak true
+
+
+
+class Default
+  { 
+  
+         int a; String b; boolean c;
+
+     /*    Default() //default
+            {
+                a = 100; b ="raunak"; c= true;
+            }                                      */
+         
+          void Disp()
+            {
+               System.out.print(a+" "+b+" "+c);
+            }
+  }
+ 
+class Test
+  {
+       Default r = new Default();    //class Default ka he ref variable mye new Default() constructor ko save karsakte hai
+       r.Disp();                    //tu special nhi n default aur param. Con ki tarha issliye tujhe obj ref ko bind krke call krna padta hai
+           
+  }
+
+ 
+output:--->
+
+ 0 null false //default values print hoti hai agr tu dekhle upr 

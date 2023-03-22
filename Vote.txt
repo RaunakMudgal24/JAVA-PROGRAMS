@@ -1,0 +1,35 @@
+             /* Eligible for Vote or Not */               
+
+//input age>=18 ---> vote
+//input age<=18 ---> not vote
+
+input java.util.Scanner;
+class Vote
+  {
+     public static void main(String args[])
+      {
+         int age;
+         System.out.println("Enter Your Age");
+         Scanner r = new Scanner(System.in);
+         age = r.nextInt(); // 24 //12
+
+         if(age>=18) // 24>=18 10>=18 nhi hai ye
+           {
+             System.out.print("Eligible for Vote ");
+           }
+         else
+           {
+             System.out.println("Not Eligible for Vote ");
+           }
+       }
+ }
+
+output:-->
+
+Enter Your Age  
+24
+Eligible for Vote
+
+Enter Your Age  
+12
+Not Eligible for Vote

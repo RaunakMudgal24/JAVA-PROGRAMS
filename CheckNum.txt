@@ -1,0 +1,41 @@
+                /* Check number is Positive or Negative */
+
+// input n>0 +ve Number
+// input n<0 -ve Number
+// input n=0 Neither +ve Nor -ve
+
+class CheckNum
+  {
+     public static void main(String args[])
+      {
+          int n;
+          System.out.println("Enter any Number ");
+          Scanner  r = new Scanner(System.in);
+          n = r.nextInt();
+
+
+          if(n>0)
+           {
+             System.out.println("+ve Number");
+           }
+          
+           elif(n<0)
+            {
+              System.out.println("-ve Number");
+            }
+            
+            else
+             {
+               System.out.println("Neither +ve Nor -ve");
+             }
+
+      }
+  }
+
+output:-->
+
+Enter any Number 20
++ve Number
+
+Enter any Number 0
+Neither +ve Nor -ve

@@ -1,0 +1,53 @@
+         /* Convert character Lower to Upper & vice-vera */
+
+//input a to z   ----> Uppercase
+//input A to Z   ----> Lowercase
+//ch>='A' && ch<='Z' this or someething else
+
+import java.util.Scanner;
+import java.lang.Character; //by default pckg
+
+class Convert 
+ {
+   public static void main(String[] args)
+    {
+       char ch,ch2;
+       System.out.println("Enter any Character ");
+       Scanner r = new Scanner(System.in);
+       ch  = r.next().charAt(0);
+
+       if(ch>='A' && ch<='Z')
+       {
+         ch2 = Character.toLowerCase(ch);
+         System.out.print("Lowercase "+ ch2);
+
+
+       }
+         
+       else
+       {
+         ch2 = Character.toUpperCase(ch);
+         System.out.print("Uppercase"+ ch2);
+
+       }
+    }
+}
+
+
+output:-->
+
+Enter any Character B
+Lowercase b 
+
+Enter any Character a
+Uppercase A
+
+
+
+
+
+
+
+
+
+

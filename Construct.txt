@@ -1,0 +1,33 @@
+                             /* Java Constructor */
+
+class Construct
+ {
+    int a; String name;
+
+ /*   Consruct()
+     {
+          a=0; name=null;   //hum default wale hai bhai hamare bina bhi chalta hai km inka
+     }  */
+
+    void show()
+     {
+        System.out.println(a +" "+name);
+     }
+
+class B 
+  {
+     public static void main(String[] args)
+       {
+         Construct r = new Construct();
+         r.show();
+       }
+  }
+
+
+output:-->
+
+0 null
+
+//construc() wala output  
+
+0 null

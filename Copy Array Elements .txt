@@ -1,0 +1,30 @@
+                         /* Copy Array Elements */
+
+//first a[]=10,20,30 ----> second b[]=10,20,30
+
+class A
+{
+  public static void main(String[] args)
+   {
+      int a[] = new int[5];
+      int b[] = new int[5];
+      Scanner r = new Scanner(Scanner.in);
+      System.out.print("Enter value in first array ");
+      for(int i=0;i<5;i++)
+       {
+          a[i]=r.nextInt();
+       }
+      System.out.println("First array Elements ");
+     for(int i=0;i<5;i++)
+      {
+        b[i]=a[i];
+        System.out.print(b[i]+" ");
+      }
+   }
+}
+
+Output:--->
+
+Enter value in first array 10 20 30 40 50
+First array Elements 10 20 30 40 50 
+Second Array Elements 10 20 30 40 50 

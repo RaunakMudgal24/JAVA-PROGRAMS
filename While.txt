@@ -1,0 +1,58 @@
+                 /* while Loop Example..! */
+class While
+{
+   public static void main(String[] args) 
+     {
+       int n;
+       System.out.print("Enter value for Condition \n");
+       Scanner r = new Scanner(System.in);
+       n = r.nextInt();
+ 
+       while(n>=0)
+         {
+           System.out.println("Learn Coding");
+         }
+      }
+}
+
+output:-->
+Enter value for condition
+7 (ye main enter kiya hu) 7>=0 condn true hai 
+Learn Coding (infinite time tk chlta he jayega)
+
+
+
+class While
+{
+   public static void main(String[] args) 
+     {
+       int n=1;
+ 
+       while(n<=10)
+         {
+           System.out.println("Learn Coding");
+            ++n;
+         }
+      }
+}
+
+output:-->
+
+Learn Coding
+Learn Coding
+Learn Coding
+Learn Coding
+Learn Coding
+Learn Coding
+Learn Coding
+Learn Coding
+Learn Coding
+Learn Coding
+
+
+
+
+
+
+
+

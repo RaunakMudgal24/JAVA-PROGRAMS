@@ -1,0 +1,30 @@
+              /* Swap of Two Numbers */
+
+//Baburao ---> 10 lakh  Syam ---> 20 lakh
+
+//Baburao ---> 20 lakh <--> Raju <-->  Syam --> 10 lakh
+
+class Swap
+ {
+     public static void main(String[] args) 
+       {
+           int a,b;
+           System.out.println("Enter two Numbers ");
+           Scanner r = new Scanner(System.in);
+           a = r.nextInt();   //10
+           b = r.nextInt();  //20
+           System.out.println("Before Swapping "+ a+" "+b);   //10 20
+           
+           temp=a; //10 
+           a = b; //20
+           b = temp; //10
+           System.out.print("After Swapping "+ a+" "+b); //20 10
+           
+       }
+ }
+
+output:--->
+
+Enter two Numbers 10 20
+Before Swapping 10 20
+After Swapping 20 10 

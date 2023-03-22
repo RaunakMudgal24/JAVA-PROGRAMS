@@ -1,0 +1,31 @@
+                                 /* Copy Constructor */
+
+class Copy
+ {
+        int a; String b;
+        Copy()
+          {
+             a =10; n="LearnCoding";
+          } 
+       
+        Copy(Copy ref)
+          {
+             a = ref.a;
+             b = ref.b;
+             System.out.println(a +" "+ b);
+          }
+  }
+
+class Demo
+  {
+       public static void main(String[] args)
+         {
+           Copy r = new Copy();
+           Copy r2 = new Copy(r);
+          }
+   }
+
+output:-->
+
+10 LearnCoding
+10 LearnCoding

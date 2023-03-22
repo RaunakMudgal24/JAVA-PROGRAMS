@@ -1,0 +1,53 @@
+                /* Ternary Operator Example...! */ 
+
+class Ternary
+{
+         public static void main(String args[])
+       {
+          int a=10,b=20,Max;
+          Max = (a>b) ? a : b;
+          System.out.println(Max);
+        }
+}
+
+output:----->
+
+20
+
+//jb if else statement hai toh Ternary op. ki ky zaroort...simple hai km line of code my kam hojata hai kum mye bum hai.
+
+
+class Ternary1
+{
+         public static void main(String args[])
+       {
+          int a=10,b=20,c=30,Max;
+          Max = (a>b) ? (a>c ? a:c) : (b>c ? b:c);
+          System.out.println(Max);
+
+        }
+}
+
+
+Output:-->
+30 
+(10>20 nhi hai toh sidha b>c pe chk krega 20>30 nhi hai toh c print hoga) p
+
+
+class Ternary2
+{
+         public static void main(String args[])
+       {
+          int a=10,b=4,c=2,Max;
+          Max = (a>b) ? (a>c ? a:c) : (b>c ? b:c);
+          System.out.println(Max);
+
+        }
+}
+
+
+Output:-->
+10
+10>4 se zada h toh a>c condn check hogi 10>2 toh a print hoga)
+
+

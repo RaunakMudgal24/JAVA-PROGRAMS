@@ -1,0 +1,52 @@
+    /* Print ASCII Value of character */
+
+//input A --> 65
+//input a --> 97
+
+
+import java.util.Scanner
+class ASCII
+  {
+     public static void main(String args[])
+       {
+          char ch;
+          System.out.println("Enter any Character");
+          Scanner r = new Scanner(System.in);
+          ch = r.next().CharAt(0); //A
+
+          int a = ch;  // 65 = A //A ko ch mye rakhne ke baad vo int a mye automatically 65 dega
+
+          System.out.print("ASCII value of "+ch+" is "+ a);
+          
+        }
+  }
+
+output:-->
+
+Enter any Character A
+ASCII value of A is 97
+
+
+import java.util.Scanner
+class ASCII
+  {
+     public static void main(String args[])
+       {
+          char ch;
+          System.out.println("Enter any Character");
+          Scanner r = new Scanner(System.in);
+          ch = r.next().CharAt(0); //a
+
+          int a = ch;  // 97 = a //a ko ch mye rakhne ke baad vo int a mye automatically 97 dega
+
+          System.out.print("ASCII value of "+ch+" is "+ a);
+          
+        }
+  }
+
+output:-->
+
+
+
+Enter any Character a
+ASCII value of a is 97
