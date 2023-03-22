@@ -1,0 +1,26 @@
+          /* Sum of Two Numbers */
+
+class Add
+{
+  public static void main(String args[])
+    {
+       int a,b;
+       System.out.println("Enter two Numbers ");
+       Scanner r = new Scanner(system.in);
+       a = r.nextInt(); //45
+       b = r.nextInt(); //76
+
+       sum = a + b;
+       System.out.print("ADDITION " + sum); //45+76=121
+
+    }
+}
+
+output:-->
+
+Enter two numbers 45
+76
+ADDITION 121
+
+
+

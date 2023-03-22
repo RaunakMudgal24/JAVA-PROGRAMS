@@ -1,0 +1,32 @@
+                                                                           / * Exception Handling  */
+
+class ArithE
+       {
+          public static void main(String[] args)
+            {
+               System.out.println("main method started");
+                  
+               int a = 10;b=0;c;
+                 try
+                  {
+
+                       c=a/b;                        //c=10/0      //hamre program ka normal flow maintain rahe issliye hum exception handlling ka use krte hai 
+                       System.out.println(c);
+                  }
+                  
+                 catch(Exception e)
+                  {
+                      System.out.println(e);  
+                  }
+                  
+               
+               System.out.println("main method ended");
+            }
+
+       }
+
+output:--->
+
+main method started
+java.lang.ArithmeticException : / by zero
+main method end

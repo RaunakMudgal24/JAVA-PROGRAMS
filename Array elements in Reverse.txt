@@ -1,0 +1,38 @@
+      /*    Print array elements in Reverse Order    */
+
+//input a[5] = 10 20 30 40 50 ----> 50 40 30 20 10 
+
+import java.util.Scanner;
+class A
+{
+   public static void main(String[] args)
+    {
+       int a[] = new int[5];
+       Scanner r = new Scanner(System.in);
+      System.out.print("Enter elements in array ");
+      for(int i=0;i<5;i++)
+       {
+         a[i] = r.nextInt();
+       }
+       
+      System.out.println("Array Elements ");
+      for(int i=0;i<5;i++)
+       {
+         System.out.print(a[i]+" ");
+       }
+
+      System.out.println("Array Reverse Elements ");
+      for(int i=a.length-1;i>=0;i--)
+       {
+         System.out.print(a[i]+" ");
+       }
+   }
+}
+
+output:--->
+
+Enter elements in Array 10  20 30 40 50 
+
+Array Elements 10 20 30 40 50
+
+Array Reverse Elements 50 40 30 20 10
